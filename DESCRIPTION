@@ -1,4 +1,4 @@
-Package: AgnusGlareTool
+Package: AgnusGlareTools
 Title: Text-as-data functions 
 Version: 0.0.0.9000
 Authors@R: person("Peder", "Landsverk", email = "pglandsverk@gmail.com", role = c("aut", "cre"))
