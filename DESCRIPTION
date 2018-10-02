@@ -1,0 +1,10 @@
+Package: AgnusGlareTool
+Title: Text-as-data functions 
+Version: 0.0.0.9000
+Authors@R: person("Peder", "Landsverk", email = "pglandsverk@gmail.com", role = c("aut", "cre"))
+Description: Useful tools when working with text as data. Applies NLP-tools like the tokenizers-package. 
+Depends: R (>= 3.4.4)
+License: GPL 
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0.9000
