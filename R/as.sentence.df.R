@@ -8,9 +8,10 @@
 #' @examples
 #' as.sentence.df() 
 
+require(magrittr)
+
 as.sentence.df <- function(df,col = 'body'){
 
-        print(names(df))
         dfs <- apply(df,1,function(row){
 
                 sentence <- row[col]%>%
@@ -25,6 +26,6 @@ as.sentence.df <- function(df,col = 'body'){
 
                         })
         dfs <- dfs %>%
-        bind_rows()
+        dplyr::bind_rows()
                 }
    
