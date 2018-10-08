@@ -4,11 +4,10 @@
 #' data frame containing the sentences on separate rows, while keeping metadata.
 #' @param col Which column contains the sentences? 
 #' @keywords NLP 
+#' @importFrom magrittr "%>%"
 #' @export
 #' @examples
 #' as.sentence.df() 
-
-require(magrittr)
 
 as.sentence.df <- function(df,col = 'body'){
 
